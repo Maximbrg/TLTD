@@ -193,7 +193,7 @@ for df in dataframes:
         start = time.time()
 
         teacher.fit(x_train_images, Y_train_onehot, batch_size=16, validation_split=0.1, epochs=20, verbose=1)
-        continue
+
         best_acurracy = 0
         models = []
         for i in range(5):

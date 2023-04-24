@@ -5,7 +5,7 @@ from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D, BatchN
 from keras.regularizers import l2
 
 
-def fully_fcnn(hidden_layers=[1028, 516, 128], dropout_rate=0.1,
+def fully_fcnn(hidden_layers=[254, 128, 64], dropout_rate=0.1,
                l2_penalty=0, optimizer='adam',
                n_class=2):
     """
